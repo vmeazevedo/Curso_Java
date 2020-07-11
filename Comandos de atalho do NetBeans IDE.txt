@@ -5,3 +5,13 @@ public static void main(String[] args) {
 
 sout + TAB =
 System.out.println();
+
+
+=====================================================================
+
+MinhaClasse	AlunosCursoEmVideo
+meuAtributo	nomeAluno
+minhaVariável	mediaPrimeiroBimestre
+meuMétodo	lançarNotaAluno
+meu_pacote	alunoscursoemvideo
+MINHA_CONSTANTE	VALOR_DE_PI
