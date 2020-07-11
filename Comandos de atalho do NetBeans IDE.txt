@@ -1,0 +1,7 @@
+Comando de atalho do NetBeans IDE
+
+psvm + TAB = 
+public static void main(String[] args) {
+
+sout + TAB =
+System.out.println();
