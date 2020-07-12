@@ -1,13 +1,5 @@
-Comando de atalho do NetBeans IDE
-
-psvm + TAB = 
-public static void main(String[] args) {
-
-sout + TAB =
-System.out.println();
-
-
 =====================================================================
+- CLASSE, ATRIBUTO, VARIÁVEL, METODO, PACOTE E CONSTANTE
 
 MinhaClasse	AlunosCursoEmVideo
 meuAtributo	nomeAluno
@@ -15,3 +7,4 @@ minhaVariável	mediaPrimeiroBimestre
 meuMétodo	lançarNotaAluno
 meu_pacote	alunoscursoemvideo
 MINHA_CONSTANTE	VALOR_DE_PI
+=====================================================================

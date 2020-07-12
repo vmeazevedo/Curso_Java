@@ -1,0 +1,82 @@
+=====================================================================
+- TIPOS PRIMITIVOS
+
+var
+    idade : Inteiro
+    sal : Real
+    letra : Caractere
+    casado : Logico
+
+inicio
+    idade <- 3
+    sal <- 1825.54
+    letra <- "G"
+    casado <- falso
+
+=====================================================================
+int idade = 3;
+float sal = 1824.54f;
+char letra = 'G';
+boolean casado = false;
+
+com typecast
+int idade = (int) 3;   //especifiquei que se trata de um inteiro.
+float sal = (float) 1825.54;
+char letra = (char) 'G';
+boolean casado = (boolean) false;
+
+utilizando classes (Wrapper Class)
+Integer idade = new Integer(3);
+Float sal = new Float(1825.54);
+Character letra = new Character('G');
+Boolean casado = new Boolean(false);
+
+=====================================================================
+//ENTRADA DE DADOS
+Scanner teclado = new Scanner(System.in);           
+System.out.print("Digite o nome do aluno: ");
+String nome = teclado.nextLine();                           
+System.out.print("Digite a nota do aluno: ");
+float nota = teclado.nextFloat();                                   
+
+//SAÍDA DE DADOS
+System.out.println("A nota é: " + nota); 
+System.out.printf("A nota de %s é %.2f \n", nome, nota);            System.out.format("A nota de %s é %.2f \n", nome, nota); 
+
+=====================================================================
+INCOMPATIBILIDADES
+NÚMEROS <=> STRINGS
+
+//Convertendo valores int em String
+int idade = 30;
+String valor = Integer.toString(idade);              System.out.println(valor);
+
+//Convertendo String em int        
+String valor = "30";
+int idade = Integer.parseInt(valor);
+System.out.println(idade);
+        
+//Convertendo String em float
+String valor = "30.5";
+float idade = Float.parseFloat(valor);
+System.out.println(valor);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+=====================================================================
+- COMANDOS DE ATALHO DO NETBEANS IDE
+
+psvm + TAB = 
+public static void main(String[] args) {
+
+sout + TAB =
+System.out.println();
+
+=====================================================================
+
