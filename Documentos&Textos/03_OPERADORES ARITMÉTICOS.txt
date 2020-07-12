@@ -1,0 +1,75 @@
+=====================================================================
+- OPERADORES ARITMÉTICOS
+
++	Adição		5+2	7
+- 	Subtração	5-2	3
+*	Multiplicação	5*2	10
+/	Divisão		5/2	5
+%	Resto		5%2	1
+
+=====================================================================
+- OPERADORES UNÁRIOS
+
+++	Incremento	a++	a=a+1
+--	Decremento	a--	a=a-1
+
+=====================================================================
+- OPERADORES DE ATRIBUIÇÃO
+
++=	Somar e atribuir	a += b		a = a+b
+-=	Subtrair e atribuir	a -= b		a = a-b
+*=	Multiplicar e atribuir	a *= b		a = a*b
+/=	Dividir e atribuir	a /= b		a = a/b
+%=	Resto e atribuir	a %= b		a = a%b
+
+=====================================================================
+- Classe Math
+
+PI	Cosntante pi	Math.PI		3.1415..
+pow	Exponenciação	Math.pow(5,2)	25
+sqrt	Raiz Quadrada	Math.sqrt(25)	5
+cbrt	Raiz Cúbica	Math.cbrt(27)	3
+
+
+- Arredondamentos
+
+abs	Valor Absoluto			Math.abs(-10)		10
+floor	Arredondamento para baixo	Math.floor(3.9)		3
+ceil	Arredondamento para cima	Math.ceil(4.2)		5
+round	Arredondamento aritmeticamente	Math.round(5.6)		6
+
+
+- Gerador de Números
+
+Math.random()			0.0 a 1.0
+5 + Math.random() * (10-5)	5.0 a 10.0
+
+=====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
