@@ -1,0 +1,73 @@
+=====================================================================
+- OPERADORES TERNARIOS
+maior = (n1>n2) ? n1:n2;
+r     = (n1>n2) ? 0:1;
+
+-Se o valor de n1 for maior que n2 ele receberá o primeiro valor após o ?.
+-Se o valor de n1 for menor que n2 ele receberá o primeiro valor após os :.
+
+=====================================================================
+- OPERADORES LÓGICOS
+
+Clausula tipo AND:
+&&	.E.	true && false	false
+
+Clausula tipo OR:
+||	.OU.	false || true	true
+
+Clausula tipo EX-OR:
+^	.XOU.	true ^ true	false
+
+Clausula tipo NOT:
+!	.NAO.	! false		true
+
+Exemplos utilizando p e q:
+Legenda: p - Paula; q - Quezia
+
+AND - Paula "E" Quezia estão felizes?:
+p    q   p&&q
+V    V    V	
+V    F    F
+F    V    F
+F    F    F
+
+OU - Paula "OU" Quezia estão felizes?:
+p    q   p||q
+V    V    V	
+V    F    V
+F    V    V
+F    F    F
+
+XOR - Paula "OU" Quezia "EXCLUSIVO" está feliz?:
+p    q   p^q
+V    V    F	
+V    F    V
+F    V    V
+F    F    F
+
+NOT - Paula "NOT" Quezia estão felizes?:
+p    !p
+V    F	
+V    V
+
+
+- EXPRESSÕES LÓGICAS COMPOSTAS
+Sistema de votação.
+O voto é facultativo dos 16 até 17 anos e de 70 acima.
+
+(idade>=16 && idade<18) || (idade>70)
+idade menor igual a 16 E idade menor que 18 OU idade maior que 70
+
+
+=====================================================================
+- OPERADORES RELACIONAIS
+
+>	Maior que		5>2	true
+<	Menor que		4<1	false
+>=	Maior ou igual a	8>=3	true
+<=	Menor ou igual a	6<=6	true
+==	Igual a			9==8	false
+!=	Diferente de		4!=5	true
+
+=====================================================================
+
