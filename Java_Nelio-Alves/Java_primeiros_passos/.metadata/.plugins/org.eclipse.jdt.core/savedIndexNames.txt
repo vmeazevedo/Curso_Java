@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\pqcir\Documents\WS-Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3167608646.index
+287444431.index
+3510846143.index
