@@ -1,0 +1,8 @@
+Declarar uma matriz
+double[][] A;
+
+Instanciar uma matriz;
+A = new double[3][4];
+
+Acessar os elementos de uma matriz;
+A[1][2] = 10;
